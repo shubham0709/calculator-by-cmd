@@ -10,4 +10,7 @@ const sub = (a, b) => {
 const div = (a, b) => {
     console.log(a / b);
 }
-module.exports = { sum, mul, sub, div };
+const random = () => {
+    console.log(Math.floor(Math.random() * 100));
+}
+module.exports = { sum, mul, sub, div, random };
